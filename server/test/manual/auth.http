@@ -1,0 +1,10 @@
+@HOSTAPI=http://127.0.0.1:3333
+
+###
+POST {{HOSTAPI}}/register HTTP/1.1
+Content-Type: application/json
+
+{ 
+"code":"2e3808b6211c5f43acd5"
+}
+###

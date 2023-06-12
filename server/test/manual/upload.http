@@ -1,0 +1,19 @@
+
+@HOSTAPI=http://127.0.0.1:3333
+
+POST {{HOSTAPI}}/upload HTTP/1.1
+Content-Type: multipart/form-data; boundary=boundary-example
+
+--boundary-example
+Content-Disposition: form-data; name="file"; filename="teste1.png"
+Content-Type: image/jpeg
+
+@./test/manual/teste1.png
+--boundary-example--
+
+
+
+
+
+
+
